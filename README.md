@@ -6,7 +6,8 @@ infeccion del virus en diferentes épocas y así poder determinar si las medidas
 
 ## Procedimiento
 Primero se leyeron los datos de la página ya mencionda. Posteriormente se hizo un suavizamiento con promedios móviles para visualizar mejor los datos.
-IMAGEN DE SUAVIZADOOOO
+![Datos Suavizados](https://user-images.githubusercontent.com/79923122/209859119-61c23420-ce61-4fe0-a0ea-92a15970fd05.PNG)
+
 
 
 Se tomaron las primeras dos semanas del inicio de la pandemia y por medio del método de mínimos cuadrados (aplicado al modelo SIR) se hizo una estimación 
@@ -16,6 +17,11 @@ de los valores del número de infectados iniciales y la tasa de infección. Se h
 * 31 de Marzo del 2020 al 15 de Abril del 2020. Inicio del uso de cubrebocas y sana distancia
 * 15 de Abril del 2020 al 30 de Abril del 2020. Incio de la cuarentena
 * 30 de Abril del 2020 al 15 de Mayo del 2020.
+
+![Minimos cuadrados ajustado a una recta](https://user-images.githubusercontent.com/79923122/209859191-e1bc58b8-3a79-4d8c-a7cf-3754655c422d.PNG)
+![Minimos cuadrados ajustado a una exponencial](https://user-images.githubusercontent.com/79923122/209859235-4fc71061-88d5-4069-a926-3657e5b752f5.PNG)
+
+
 
 Despues de ajustar el modelo SIR a cada subintervalo de tiempo, se calculó la aproximación para la tasa de infección
 
